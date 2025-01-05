@@ -25,7 +25,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-slate-900 sm:h-25 text-slate-100 px-4 md:px-8 h-20 w-full shadow-lg fixed top-0 z-50 flex justify-between items-center bg-opacity-70 overflow-hidden">
+    <nav className="bg-slate-900 sm:h-25 text-slate-100 px-4 md:px-8 h-20 w-full shadow-lg fixed top-0 z-50 flex justify-between items-center bg-opacity-70 overflow-x-none">
       <div onClick={handleLogoClick} className='cursor-pointer text-blue-300'>
         <h1 className="font-extrabold text-4xl md:text-5xl flex items-center gap-3 text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-500 to-purple-400 drop-shadow-md">
           ALI.DEV
