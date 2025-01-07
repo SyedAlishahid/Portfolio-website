@@ -3,9 +3,18 @@ import DownloadIcon from '@mui/icons-material/Download';
 import Img from './assets/file.png';
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
-import { fedeln } from './Variants.js'; 
+import { fedeln } from './Variants.js';
 
 function Home() {
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/resumes/Ali_Shahid_Resume.pdf'; // Update to the correct relative path
+    link.download = 'Ali_Shahid_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section
       className='h-4/5 w-full grid justify-center items-center grid-cols-1 md:grid-cols-2 bg-gradient-to-r from-slate-800 to-slate-900 p-6'
@@ -32,11 +41,14 @@ function Home() {
           </span>{' '}
           specializing in creating beautiful and functional user interfaces.
         </p>
-        <button className='bg-blue-600 hover:bg-blue-700 transition duration-300 mt-4 sm:mt-6 h-10 sm:h-12 w-56 sm:w-64 rounded-lg flex items-center justify-center text-white font-semibold shadow-md hover:shadow-lg'>
+        <button 
+          className='bg-blue-600 hover:bg-blue-700 transition duration-300 mt-4 sm:mt-6 h-10 sm:h-12 w-56 sm:w-64 rounded-lg flex items-center justify-center text-white font-semibold shadow-md hover:shadow-lg'
+          onClick={handleDownload}
+        >
           Download Resume <DownloadIcon className='ml-2' />
         </button>
       </motion.div>
-      <div className='flex justify-center' >
+      <div className='flex justify-center'>
         <img
           src={Img}
           alt="Ali Shahid's profile"
