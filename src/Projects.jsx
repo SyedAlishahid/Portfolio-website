@@ -28,10 +28,10 @@ function Projects() {
   return (
     <section id="Projects">
       <h1 className="text-7xl font-bold text-center bg-slate-800 text-white py-5">Projects</h1>
-      <div className="h-3/5 w-full bg-slate-800 pt-5 grid justify-center items-center grid-cols-1 sm:grid-cols-2 gap-6 sm:px-10 md:pr-32 lg:pl-32">
+      <div className="h-3/5 w-full  bg-slate-800 pt-5 grid justify-center items-center grid-cols-1 sm:grid-cols-2 gap-6 sm:px-10 ">
         
         <motion.div
-          className="p-4"
+          className="p-4 flex justify-center items-center"
           variants={fedeln('up', 0.2)} 
           initial="hidden"
           animate={isVisible ? "show" : "hidden"}
@@ -44,7 +44,7 @@ function Projects() {
         </motion.div>
 
         <motion.div
-          className="p-4"
+          className="p-4 flex justify-center items-center"
           variants={fedeln('up', 0.2)} 
           initial="hidden"
           animate={isVisible ? "show" : "hidden"}
@@ -57,7 +57,7 @@ function Projects() {
         </motion.div>
 
         <motion.div
-          className="p-4"
+          className="p-4 flex justify-center items-center"
           variants={fedeln('up', 0.2)} 
           initial="hidden"
           animate={isVisible ? "show" : "hidden"}
@@ -70,7 +70,7 @@ function Projects() {
         </motion.div>
 
         <motion.div
-          className="p-4"
+          className="p-4 flex justify-center items-center"
           variants={fedeln('up', 0.2)} 
           initial="hidden"
           animate={isVisible ? "show" : "hidden"}

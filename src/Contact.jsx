@@ -16,33 +16,33 @@ function Contact() {
           <div className='border-blue-500 border-b-2 w-2/4 mb-5'></div>
         </div>
 
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 justify-center items-center pt-10'>
-          <div className='flex flex-col md:flex-row m-2 space-x-0 md:space-x-2'>
-            <div className='h-16 w-full md:w-64 rounded-lg border-2 border-blue-500 text-center font-semibold flex justify-center items-center text-blue-300 bg-slate-700 shadow-lg transition-transform transform hover:scale-105 mb-2 md:mb-0'>
-              <EmailIcon className='inline-block mr-2 text-white' />Syedalishahid@gmail.com
-            </div>
-            <div className='h-16 w-full md:w-64 rounded-lg border-2 mt-2 sm:mt-0 border-blue-500 text-center font-semibold flex justify-center items-center text-blue-300 bg-slate-700 shadow-lg transition-transform transform hover:scale-105'>
-              <LocalPhoneIcon className='inline-block mr-2 text-white' />0327-2467724
-            </div>
-          </div>
-          <div className=' h-16 w-full md:w-64  rounded-lg border-2 mb-2  border-blue-500 text-center font-semibold text-blue-300 flex justify-center items-center bg-slate-700 shadow-lg transition-transform transform hover:scale-105 ml-auto '>
-            <LocationOnIcon className='inline-block mr-2 text-white' />Pakistan, Karachi
-          </div>
-        </div>
+       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 justify-center items-center pt-10 overflow-hidden'>
+  <div className='flex flex-col md:flex-row m-2 space-x-0 md:space-x-2'>
+    <div className='h-16 w-full md:w-64 rounded-lg border-2 border-blue-500 text-center font-semibold flex justify-center items-center text-blue-300 bg-slate-700 shadow-lg transition-transform transform hover:scale-105 mb-2 md:mb-0'>
+      <EmailIcon className='inline-block mr-2 text-white' />syedalishahid@gmail.com
+    </div>
+    <div className='h-16 w-full md:w-64 rounded-lg border-2 border-blue-500 text-center font-semibold flex justify-center items-center text-blue-300 bg-slate-700 shadow-lg transition-transform transform hover:scale-105 mt-2 sm:mt-0'>
+      <LocalPhoneIcon className='inline-block mr-2 text-white' />0327-2467724
+    </div>
+  </div>
+  <div className='h-16 w-full md:w-64 rounded-lg border-2 border-blue-500 text-center font-semibold text-blue-300 flex justify-center items-center bg-slate-700 shadow-lg transition-transform transform hover:scale-105 mb-2 ml-auto lg:mr-10'>
+    <LocationOnIcon className='inline-block mr-2 text-white' />Pakistan, Karachi
+  </div>
+</div>
 
        <div className='flex mt-5 '>
     <div className='border-blue-500 border-b-2 w-2/4 mb-5'></div>
-    <a href="https://www.linkedin.com/in/ali-shahid-2b214b301" target='_blank' rel="noopener noreferrer">
-        <InstagramIcon className='h-20 w-20 cursor-pointer m-2 text-white '/>
+    <a href="https://www.instagram.com/ali_shahid2007/" target='_blank' rel="noopener noreferrer">
+        <InstagramIcon className='h-20 w-20 cursor-pointer m-2 text-white hover:text-slate-600 transition-transform transform hover:scale-105'/>
     </a>
     <a href="https://www.linkedin.com/in/ali-shahid-2b214b301" target='_blank' rel="noopener noreferrer">
-        <LinkedInIcon className='h-20 w-20 cursor-pointer m-2 text-white '/>
+        <LinkedInIcon className='h-20 w-20 cursor-pointer m-2 text-white hover:text-slate-600 transition-transform transform hover:scale-105'/>
     </a>
-    <a href="https://www.linkedin.com/in/ali-shahid-2b214b301" target='_blank' rel="noopener noreferrer">
-        <XIcon className='h-20 w-20 cursor-pointer m-2 text-white '/>
+    <a href="https://x.com/AliShahid2007?t=ejoGI9Eq9ecRS_D-16g-ow&s=09" target='_blank' rel="noopener noreferrer">
+        <XIcon className='h-20 w-20 cursor-pointer m-2 text-white hover:text-slate-600 transition-transform transform hover:scale-105'/>
     </a>
-    <a href="https://www.linkedin.com/in/ali-shahid-2b214b301" target='_blank' rel="noopener noreferrer">
-        <FacebookIcon className='h-20 w-20 cursor-pointer m-2 text-white '/>
+    <a href="https://www.facebook.com/profile.php?id=61565486289232" target='_blank' rel="noopener noreferrer">
+        <FacebookIcon className='h-20 w-20 cursor-pointer m-2 text-white hover:text-slate-600 transition-transform transform hover:scale-105'/>
     </a>
     <div className='border-blue-500 border-b-2 w-2/4 mb-5'></div>
 </div>
