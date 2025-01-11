@@ -1,6 +1,6 @@
 import React from 'react';
 import DownloadIcon from '@mui/icons-material/Download';
-import Img from './assets/file.png';
+import Img from './assets/Ali.png';
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
 import { fedeln } from './Variants.js';
