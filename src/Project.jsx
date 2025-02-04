@@ -6,17 +6,21 @@ function Project({ src, para, href }) {
 
   return (
     <div 
-      className="relative w-86 sm:w-full lg:w-90 max-w-sm overflow-hidden rounded-lg m-5 sm:mt-16 md:m-10 sm:mr-10 transform transition-transform duration-300 hover:scale-105"
+      className="relative w-full max-w-sm overflow-hidden rounded-lg transform transition-transform duration-300 hover:scale-105"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      role="article"
+      aria-labelledby="project-title"
     >
       <img 
         src={src} 
         alt="Project" 
-        className={`w-full h-72 object-cover transition-opacity duration-300 ${isHovered ? 'opacity-20' : 'opacity-100'}`} 
+        className={`w-full h-72  object-cover transition-opacity duration-300 ${isHovered ? 'opacity-20' : 'opacity-100'}`} 
+        aria-hidden="true"
       />
       <p 
         className={`absolute inset-0 text-center flex items-end pb-16 px-4 text-white text-lg bg-black bg-opacity-50 transition-opacity duration-300 ${isHovered ? 'opacity-100' : 'opacity-0'}`}
+        id="project-title"
       >
         {para}
       </p>        
@@ -24,7 +28,9 @@ function Project({ src, para, href }) {
         <a 
           href={href}
           target="_blank" 
+          rel="noopener noreferrer"
           className='h-10 cursor-pointer w-48 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition duration-300 flex items-center justify-center text-sm font-semibold'
+          aria-label="See more about this project"
         >
           See more
         </a>

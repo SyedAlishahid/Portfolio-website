@@ -71,22 +71,22 @@ function About() {
           >
             My Skills
           </motion.h1>
-          <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mt-10 gap-4 sm:p-8 rounded-lg shadow-lg hover:shadow-2xl'>
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={html} para={"HTML"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={css} para={"CSS"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={bootstrap} para={"BootStrap"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={TailwindCss} para={"TailwindCss"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={js} para={"JavaScript"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={react} para={"React"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={redux} para={"Redux"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={git} para={"Git"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={ghub} para={"GitHub"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={vercel} para={"Vercel"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={Hostinger} para={"Hostinger"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={WooCommerce} para={"WooCommerce"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={WordPress} para={"WordPress"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={Figma} para={"Figma"} />
-            <Box className='bg-white p-4 rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={mui} para={"Material UI"} />
+          <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 mt-10 gap-4 sm:p-8 lg:p-0 rounded-lg shadow-lg hover:shadow-2xl'>
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={html} para={"HTML"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={css} para={"CSS"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={bootstrap} para={"BootStrap"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={TailwindCss} para={"TailwindCss"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={js} para={"JavaScript"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={react} para={"React"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={redux} para={"Redux"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={git} para={"Git"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={ghub} para={"GitHub"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={vercel} para={"Vercel"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={Hostinger} para={"Hostinger"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={WooCommerce} para={"WooCommerce"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={WordPress} para={"WordPress"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={Figma} para={"Figma"} />
+            <Box className='bg-white  rounded-lg shadow-md hover:bg-gray-100 transition duration-300' src={mui} para={"Material UI"} />
           </div>
         </div>
       </div>
